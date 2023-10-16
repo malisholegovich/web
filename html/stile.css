@@ -1,0 +1,23 @@
+#naz{
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    font-weight: 400;
+    font-family: ArcadeClassic;
+    word-wrap: break-word;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:50%;
+    transform: translate(0,-50%);
+}
+#imge{
+    width: auto;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    filter: blur(8px);
+    box-shadow: 14px 14px 14px;
+}
