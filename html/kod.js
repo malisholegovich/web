@@ -59,8 +59,7 @@ function pereb(){
     }
 }
 let t = setInterval(pereb,100)
-document.getElementsByClassName("maindiv").height=window.innerHeight
-document.querySelectorAll(".maindiv").style.width=window.innerWidth
+
 
 
 
