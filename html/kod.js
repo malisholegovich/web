@@ -58,9 +58,9 @@ function pereb(){
         clearInterval(t)
     }
 }
-var t = setInterval(pereb,100)
-document.getElementById("imge").style.height=window.innerHeight
-document.getElementById("imge").style.width=window.innerWidth
+let t = setInterval(pereb,100)
+document.getElementsByClassName("maindiv").height=window.innerHeight
+document.querySelectorAll(".maindiv").style.width=window.innerWidth
 
 
 

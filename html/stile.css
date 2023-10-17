@@ -1,23 +1,40 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
 #naz{
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     font-size: 150px;
     color: white;
     font-weight: 400;
     font-family: ArcadeClassic;
     word-wrap: break-word;
     text-align: center;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
     top:50%;
     transform: translate(0,-50%);
+    filter: blur(0px);
 }
-#imge{
+.maindiv {
+    width: 100%;
+    height: 800px;
+    background-image: url(ggggggggg.jpg);
+    background-repeat: no-repeat;
+
+    filter: blur(2.5px);
+}
+.imge{
+    display: none;
     width: auto;
     height: 900px;
     left: 0px;
     top: 0px;
-    position: absolute;
     filter: blur(8px);
     box-shadow: 14px 14px 14px;
+}
+#yoi{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
