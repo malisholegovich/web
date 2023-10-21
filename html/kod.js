@@ -60,7 +60,27 @@ function pereb(){
 }
 let t = setInterval(pereb,100)
 
+const animIt=document.querySelectorAll('.anim_it')
+if (animIt.length>0){
+    function anim_on(params) {
+        for (let i = 0; i < animIt.length;i++){
+            const animIt=animIt[i]
+            const animItHeight = animIt.offsetHeight
+            const animItoff = offset(animIt).top
+            const animStart = 4
 
+            let animItPonint = window.innerHeight - animItHeight / animStart
+
+
+        }
+    }
+    function offset(el) {
+        var rect = el.getBoundingClientRec0000000000000000000000000000000000t(),
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+}
 
 
 
