@@ -60,9 +60,10 @@ function pereb(){
 }
 let t = setInterval(pereb,100)
 
-const animIt=document.querySelectorAll('.anim_it')
+const animIt= document.querySelectorAll(".ris")
 if (animIt.length>0){
-    function anim_on(params) {
+    window.addEventListener('scroll', anim_on)
+    function anim_on() {
         for (let i = 0; i < animIt.length;i++){
             const animIt=animIt[i]
             const animItHeight = animIt.offsetHeight
@@ -70,16 +71,25 @@ if (animIt.length>0){
             const animStart = 4
 
             let animItPonint = window.innerHeight - animItHeight / animStart
+            if (animItHeight > window.innerHeight){
+                animItPonint = window.innerHeight - window.innerHeight/animStart
+            }
 
+            if ((pageYOffset > animItoff - animItPonint) && pageYOffset <(animItoff + animItHeight)){
+                animIt.classList.add('_active')
+            } else{
+                animIt.classList.remove('_active')
+            }
 
         }
     }
     function offset(el) {
-        var rect = el.getBoundingClientRec0000000000000000000000000000000000t(),
+        const rect = el.getBoundingClientRect(),
             scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
             scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
     }
+    anim_on()
 }
 
 
