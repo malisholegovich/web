@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="stile.css">
     <script src="kod.js"></script>
     <script src="wow.min.js"></script>
+    <link rel="stylesheet" href="flickity.css" media="screen">
+    <script src="flickity.pkgd.min.js"></script>
     <script>
         new WOW().init();
         </script>
@@ -31,6 +33,14 @@
                 </svg>
             </p>
             <div class="ris animate__animated wow animate__fadeInDown"><img src="download.jpg" alt=""></div>
+        </div>
+        <div class="gallery js-flickity"
+             data-flickity-options='{ "wrapAround": true , "prevNextButtons": false, "autoPlay": 1500}'>
+            <div class="gallery-cell"><img src="chip.png"></div>
+            <div class="gallery-cell"><img src="chip.png"></div>
+            <div class="gallery-cell"></div>
+            <div class="gallery-cell"></div>
+            <div class="gallery-cell"></div>
         </div>
     </body>
 </html>
