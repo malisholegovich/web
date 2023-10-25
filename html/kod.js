@@ -21,9 +21,11 @@ var k8 = 0
 var k9 = 0
 var k0 = 0
 var maps_text = new Map()
-maps_text.set("abza",["я прошелся и погулял",0])
+maps_text.set("abza",["Академия робототехники «CyberChipen» работает в таких направлениях как микроэлектроника и робототехника. Мы занимаемся изучением этих предметов на базе наборов «Arduino».\n" +
+" \tВ 2022г. Все члены нашей команды успешно прошли курс молодого бойца, а по сей день занимаются проектной деятельностью и творческими заданиями. За нашими спинами такие проекты как: программа для решения тестов «LeaSys», летней лагерь «Arduino KIDS», автоматическая подача звонков, макет посёлка Студёный и многие другие.\n",0])
 
 function text(){
+
     for (var [key, value] of maps_text){
         if (document.getElementById(key).style.visibility=="visible" && value[1]<value[0].length){
             document.getElementById(key).innerHTML+=value[0][value[1]]
@@ -71,7 +73,8 @@ function pereb(){
     }
 }
 let t = setInterval(pereb,100)
-let i = setInterval(text,100)
+let i = setInterval(text,30)
+
 // const animIt= document.querySelectorAll(".abza")
 // if (animIt.length>0){
 //     window.addEventListener('scroll', anim_on)
