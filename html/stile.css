@@ -129,12 +129,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-.gallery div{
-    width: 200px;
-    height: 400px;
-    background-color: aqua;
-    border-radius: 20px;
-}
+
 .command{
     z-index: 2;
     position: relative;
@@ -160,10 +155,9 @@ body{
     height: 100vh;
     margin: 0;
     padding-top: 30px;
-    box-sizing: border-box;
+    padding-bottom: 10px;
     background-color: black;
-    display: flex;
-    align-items: center;
+    box-sizing: border-box;
 
 }
 .main_people_pt1 h1{
@@ -176,19 +170,21 @@ body{
 }
 .main_people_pt1 .first_glava{
     position: absolute;
-    left: 20px;
+    left: 5%;
     top: 30%;
     z-index: 2;
-    height: 300px;
+    width: 30%;
+    padding-right: 2%;
     animation: 5s show ease;
 }
 
 .main_people_text{
     position: absolute;
     color: white;
-    width: 500px;
+    width: 40%;
     height: auto;
     font-size: 40px;
+    padding-bottom: 1%;
     right: 20%;
     top:30%;
 
@@ -200,25 +196,25 @@ body{
     height: auto;
     margin: 0;
     padding-top: 30px;
+    padding-bottom: 10px;
     background-color: black;
     box-sizing: border-box;
 
 
 }
-.main_object_1 #first_object{
-    width: 300px;
-    height: 400px;
-    border-radius: 20px;
-    padding-left: 100px;
+.main_object_1 .first_ob{
+    width: 30%;
+    height: 40%;
+    padding-left: 5%;
 
 }
 .main_object_1 p{
     color: white;
     padding-bottom: 50px;
     font-size: 20px;
-    width: 700px;
+    width: 50%;
     position: absolute;
-    right: 50px;
+    right: 7%;
     top: 20%;
 
 }
@@ -267,22 +263,20 @@ body{
 
 
 }
-.main_object_2 #second_object{
-    width: 300px;
-    height: 400px;
-    border-radius: 20px;
+.main_object_2 .second_ob{
+    width: 30%;
     position: absolute;
-    right: 100px;
+    right: 5%;
 }
 
 .main_object_2 p{
     color: white;
     padding-bottom: 50px;
     font-size: 20px;
-    width: 700px;
+    width: 50%;
     /*font-family: Arial;*/
     position: absolute;
-    left: 50px;
+    left: 7%;
     top: 20%;
 }
 .better_people{
@@ -298,11 +292,18 @@ body{
     justify-content: space-around;
 
 }
+.better_people a{
+    width: 50%;
+    height: 50%;
+}
 .better_people .photo{
     z-index: 2;
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 50%;
     animation: 5s show ease;
+}
+.better_people .photo:first-child{
+    padding-left: 5%;
 }
 .best_people{
     z-index: 2;
@@ -319,8 +320,8 @@ body{
 }
 .best_people .photo_2{
     z-index: 2;
-
-    height: 300px;
+    padding-left: 25%;
+    width: 50%;
     animation: 5s show ease;
 }
 .perehod{
