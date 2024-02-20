@@ -38,7 +38,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    
+
     /* background-image: url(detailed_picture.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
@@ -69,14 +69,15 @@ body{
     width: 65%;
     height: 30%;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
 }
 .abza:nth-child(2){
     padding-top:84px;
     padding-bottom: 50px;
 }
 .Uno img{
-    width: 60%;
+    width: 100%;
+
     height: auto;
     transform: rotate(60deg);
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
@@ -88,7 +89,7 @@ body{
     position: absolute;
     left:60%;
     top: 0;
-    width: 67%;
+
     height: 100%;
 }
 
@@ -152,7 +153,7 @@ body{
     z-index: 2;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -161,7 +162,7 @@ body{
 
 }
 .main_people_pt1 h1{
-    position: absolute;
+    padding-bottom: 5%;
     top: 20px;
     margin: 0;
     text-align: center;
@@ -169,7 +170,7 @@ body{
     color: white;
 }
 .main_people_pt1 .first_glava{
-    position: absolute;
+
     left: 5%;
     top: 30%;
     z-index: 2;
@@ -188,6 +189,38 @@ body{
     right: 20%;
     top:30%;
 
+}
+
+.svetodiod{
+    padding-top: 100px;
+    position: absolute;
+    position: relative;
+    bottom: 0;
+}
+.svetodiod1{
+    position: absolute;
+    position: relative;
+    bottom: 0;
+    left: 431px;
+}
+.svetodiod2{
+    position: absolute;
+    position: relative;
+    bottom: 0;
+
+    left: 662px;
+}
+.svetodiod3{
+    position: absolute;
+    position: relative;
+    bottom: 0;
+
+    left: 1100px;
+}
+.svet{
+    height: 150px;
+    position: absolute;
+    bottom: 0;
 }
 .main_object_1{
     z-index: 2;
@@ -211,68 +244,37 @@ body{
 .main_object_1 p{
     color: white;
     padding-bottom: 50px;
-    font-size: 20px;
+    font-size: 40px;
     width: 50%;
     position: absolute;
     right: 7%;
+
     top: 20%;
 
 }
-.svetodiod{
-    padding-top: 100px;
-    position: absolute;
-    position: relative;
-    bottom: 0;
-}
-.svetodiod1{
-    position: absolute;
-    position: relative;
-    bottom: 0;
-
-    left: 431px;
-}
-.svetodiod2{
-    position: absolute;
-    position: relative;
-    bottom: 0;
-
-    left: 662px;
-}
-.svetodiod3{
-    position: absolute;
-    position: relative;
-    bottom: 0;
-
-    left: 1100px;
-}
-.svet{
-    height: 150px;
-    position: absolute;
-    bottom: 0;
-}
-
 .main_object_2{
     z-index: 2;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     margin: 0;
     padding-top: 30px;
+    padding-bottom: 10px;
     background-color: black;
     box-sizing: border-box;
-
 
 }
 .main_object_2 .second_ob{
     width: 30%;
-    position: absolute;
-    right: 5%;
+    position: relative;
+    left: 63%;
+
 }
 
 .main_object_2 p{
     color: white;
     padding-bottom: 50px;
-    font-size: 20px;
+    font-size: 40px;
     width: 50%;
     /*font-family: Arial;*/
     position: absolute;
@@ -320,8 +322,8 @@ body{
 }
 .best_people .photo_2{
     z-index: 2;
-    padding-left: 25%;
-    width: 50%;
+    padding-left: 20%;
+    width: 60%;
     animation: 5s show ease;
 }
 .perehod{
