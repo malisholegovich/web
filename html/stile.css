@@ -67,6 +67,7 @@ body{
     padding-top: 75px;
     padding-left: 30px;
     width: 65%;
+    font-family: "Comic Sans MS";
     height: 30%;
     color: white;
     font-size: 60px;
@@ -170,7 +171,7 @@ body{
     color: white;
 }
 .main_people_pt1 .first_glava{
-
+    position: absolute;
     left: 5%;
     top: 30%;
     z-index: 2;
@@ -180,13 +181,14 @@ body{
 }
 
 .main_people_text{
-    position: absolute;
+
     color: white;
     width: 40%;
     height: auto;
+    font-family: "Comic Sans MS";
     font-size: 40px;
     padding-bottom: 1%;
-    right: 20%;
+    padding-left: 40%;
     top:30%;
 
 }
@@ -227,6 +229,7 @@ body{
     position: relative;
     width: 100vw;
     height: auto;
+    overflow: hidden;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -236,27 +239,33 @@ body{
 
 }
 .main_object_1 .first_ob{
-    width: 30%;
-    height: 40%;
-    padding-left: 5%;
+    width: auto;
+
+    position: absolute;
+    left: 7%;
+    top: 8%;
 
 }
 .main_object_1 p{
     color: white;
-    padding-bottom: 50px;
-    font-size: 40px;
-    width: 50%;
-    position: absolute;
-    right: 7%;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    padding-left: 40%;
 
-    top: 20%;
+    width: 55%;
+
+
+
+
 
 }
 .main_object_2{
+
     z-index: 2;
     position: relative;
     width: 100vw;
     height: auto;
+    overflow: hidden;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -265,21 +274,23 @@ body{
 
 }
 .main_object_2 .second_ob{
-    width: 30%;
-    position: relative;
-    left: 63%;
+    width: auto;
+
+    position: absolute;
+    right: 7%;
+    top: 8%;
+
+
 
 }
 
 .main_object_2 p{
     color: white;
-    padding-bottom: 50px;
-    font-size: 40px;
-    width: 50%;
-    /*font-family: Arial;*/
-    position: absolute;
-    left: 7%;
-    top: 20%;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    padding-left: 7%;
+    padding-bottom: 8%;
+    width: 55%;
 }
 .better_people{
     z-index: 2;
@@ -348,6 +359,7 @@ body{
 
 .footer p{
     color: white;
+    width: auto;
 }
 .footer .mef{
     z-index: 2;
