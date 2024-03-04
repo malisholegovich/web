@@ -21,11 +21,11 @@ body{
 }
 #naz{
     z-index: 2;
-    font-size: 200px;
+    font-size: 160px;
     margin: 0;
     color: white;
     font-weight: 400;
-    font-family: Decrypted;
+    font-family: "Ink Free";
     text-align: center;
 }
 
@@ -360,6 +360,13 @@ body{
 .footer p{
     color: white;
     width: auto;
+    font-family: Mistral;
+    font-size: 200%;
+    margin: 0;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    width: 50%;
+    padding-left: 25%;
 }
 .footer .mef{
     z-index: 2;
@@ -369,4 +376,28 @@ body{
 }
 .footer #phone {
     color: white;
+    font-family: Mistral;
+    font-size: 200%;
+    width: 50%;
+    padding-left: 25%;
+}
+.social img{
+    margin-right: 2%;
+}
+
+.part_vk:hover{
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+}
+
+.part_tg:hover{
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+}
+.part_inst:hover{
+    background-color: white;
+    border-radius: 10%;
+    width: 65px;
 }
