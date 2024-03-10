@@ -1,6 +1,11 @@
 html{
     width: 100vw;
 }
+@font-face {
+    font-family: NEXT_ART; /* Гарнитура шрифта */
+
+    src: url(NEXT_ART.ttf); /* Путь к файлу со шрифтом */
+}
 body{
     margin: 0;
     padding: 0;
@@ -21,11 +26,11 @@ body{
 }
 #naz{
     z-index: 2;
-    font-size: 160px;
+    font-size: 100px;
     margin: 0;
     color: white;
     font-weight: 400;
-    font-family: "Ink Free";
+    font-family: NEXT_ART,sans-serif;
     text-align: center;
 }
 
