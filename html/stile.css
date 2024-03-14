@@ -6,6 +6,11 @@ html{
 
     src: url(NEXT_ART.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family: VK; /* Гарнитура шрифта */
+
+    src: url(VK_Sans_Display_Regular.ttf); /* Путь к файлу со шрифтом */
+}
 body{
     margin: 0;
     padding: 0;
@@ -71,8 +76,8 @@ body{
 .abza{
     padding-top: 75px;
     padding-left: 30px;
-    width: 65%;
-    font-family: "Comic Sans MS";
+    width: 50%;
+    font-family: VK;
     height: 30%;
     color: white;
     font-size: 60px;
@@ -247,17 +252,18 @@ body{
     width: auto;
 
     position: absolute;
-    left: 7%;
+    left: 15%;
     top: 8%;
 
 }
 .main_object_1 p{
     color: white;
-    font-family: "Comic Sans MS";
-    font-size: 20px;
-    padding-left: 40%;
-
-    width: 55%;
+    font-family: VK;
+    font-size: 25px;
+    margin-left: 1%;
+    padding-left: 50%;
+    padding-bottom: 4%;
+    width: 45%;
 
 
 
@@ -282,7 +288,8 @@ body{
     width: auto;
 
     position: absolute;
-    right: 7%;
+
+    right: 15%;
     top: 8%;
 
 
@@ -291,11 +298,12 @@ body{
 
 .main_object_2 p{
     color: white;
-    font-family: "Comic Sans MS";
-    font-size: 20px;
+    font-family: VK;
+    font-size: 25px;
+    margin-right: 1%;
     padding-left: 7%;
     padding-bottom: 8%;
-    width: 55%;
+    width: 45%;
 }
 .better_people{
     z-index: 2;
@@ -347,6 +355,31 @@ body{
     width: 100vw;
     height: 5px;
     background-color: white;
+
+}
+.information{
+
+    position: relative;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding-top: 30px;
+    background-color: black;
+    box-sizing: border-box;
+    text-align: center;
+}
+.information h1{
+    color: white;
+    font-family: VK;
+    font-size: 50px;
+}
+.information p{
+    color: white;
+    margin: 0;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    font-size: 25px;
+    font-family: VK;
 
 }
 .footer {
