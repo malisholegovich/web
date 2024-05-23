@@ -382,6 +382,31 @@ body{
     font-family: VK;
 
 }
+
+
+
+.information_2{
+
+    position: relative;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding-top: 30px;
+    background-color: black;
+    box-sizing: border-box;
+    text-align: center;
+}
+.information_2 h1{
+    color: white;
+    font-family: VK;
+    font-size: 50px;
+}
+.information_2 p {
+    padding-top: 4%;
+    margin: 0;
+}
+
+
 .footer {
     z-index: 2;
     position: relative;
